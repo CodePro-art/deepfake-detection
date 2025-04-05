@@ -1,0 +1,29 @@
+{
+    "dataset": {
+        "Victor": [
+            "E:\\DeepFakeDetection\\dfdc_train_all",
+            "E:\\DeepFakeDetection\\smalldata"
+        ],
+        "Nitzan": [
+            "D:\\dfdc",
+            "D:\\dfdc"
+        ],
+        "Netanel": [
+            "F:\\datasets\\deepfake",
+            "F:\\datasets\\compressed"
+        ]
+    },
+    "batch_size": 64,
+    "image_size": 224,
+    "num_workers": 4,
+    "num_classes": 2,
+    "epochs": 10,
+    "learning_rate": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "max_seq_length": 10,
+    "num_features": 2048,
+    "train": "F:\\datasets\\deepfake\\train_set",
+    "test": "F:\\datasets\\deepfake\\test_set",
+    "val": "F:\\datasets\\deepfake\\validation_set"
+}
