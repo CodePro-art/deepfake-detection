@@ -3,13 +3,13 @@ import os
 import random
 import subprocess
 import numpy as np
-import torch
+import torch # type: ignore
 from functools import partial
 from glob import glob
 from multiprocessing.pool import Pool
 from os import cpu_count
 import cv2 as cv
-from tqdm import tqdm
+from tqdm import tqdm # type: ignore
 
 def compress_video(filepath, down_fps, scale_fact, isGray):
     
