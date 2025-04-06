@@ -1,17 +1,15 @@
 {
     "dataset": {
-        "Victor": [
-            "E:\\DeepFakeDetection\\dfdc_train_all",
-            "E:\\DeepFakeDetection\\smalldata"
-        ],
-        "Nitzan": [
-            "D:\\dfdc",
-            "D:\\dfdc"
-        ],
-        "Netanel": [
-            "F:\\datasets\\deepfake",
-            "F:\\datasets\\compressed"
-        ]
+        "Netanel": {
+            "root": "F:\\datasets\\deepfake",
+            "train_set": "F:\\datasets\\deepfake\\train_set",
+            "test_set": "F:\\datasets\\deepfake\\test_set",
+            "validation_set": "F:\\datasets\\deepfake\\validation_set",
+            "data_sample": "F:\\datasets\\deepfake\\data_sample",
+            "train_sample": "F:\\datasets\\deepfake\\data_sample\\train_sample_videos",
+            "test_videos": "F:\\datasets\\deepfake\\data_sample\\test_videos",
+            "compressed": "F:\\datasets\\compressed"
+        }
     },
     "batch_size": 64,
     "image_size": 224,
@@ -25,5 +23,5 @@
     "num_features": 2048,
     "train": "F:\\datasets\\deepfake\\train_set",
     "test": "F:\\datasets\\deepfake\\test_set",
-    "val": "F:\\datasets\\deepfake\\validation_set"
+    "validation": "F:\\datasets\\deepfake\\validation_set"
 }
